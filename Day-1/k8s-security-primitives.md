@@ -5,7 +5,8 @@
 #### Securing Hosts
 
 - Infrastructure that helps run Kubernetes clusters, such as virtual machines or bare-metal servers, should be secured. This includes hardening the operating system, applying security patches, and ensuring that only necessary services are running.
-- Disabling root access and password-based authentication and use SSH key-based authentication.
+- Disabling root access and password-based authentication
+- Enabling SSH key-based authentication.
 
 > If the host is compromised, the entire Kubernetes cluster can be at risk.
 
