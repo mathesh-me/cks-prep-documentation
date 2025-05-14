@@ -34,11 +34,11 @@ sudo aa-status
 
 - To load a existing AppArmor profile, use the following command:
 ```bash
-sudo apparmor_parser /etc/apparmor.d/usr.bin.script.sh
+sudo apparmor_parser -q /etc/apparmor.d/usr.bin.script.sh
 ```
 - To unload a AppArmor profile, use the following command:
 ```bash
-sudo apparmor_parser -R /etc/apparmor.d/usr.bin.script.sh
+sudo apparmor_parser -r /etc/apparmor.d/usr.bin.script.sh
 ```
 
 Date of Commit: 14/05/2025
