@@ -1,0 +1,8 @@
+## Data Plane Isolation
+
+Data Plane is responisble for running the workloads. It handles functionality like networking, storage, and compute resources. Data Plane isolation is achieved through various mechanisms such as:
+- **Network Policies**: Network policies are used to control the communication between pods in different namespaces. They allows us to define rules for which pods can communicate with each other, providing network isolation. By default, all pods can communicate with each other, but network policies can be used to restrict this communication.
+- **Storage Isolation**: By using different storage classes, we can achieve storage isolation. Each storage class can have its own set of parameters, such as performance characteristics, replication policies, and access modes. This allows us to create different storage classes for different teams or applications, providing isolation between them. So that all the PV and PVCs related to a specific team or application can be created using the same storage class. This ensures that the storage resources are isolated from each other.
+- **Node Isolation**: Node isolation is achieved by using taints and tolerations. Taints are applied to nodes to repel pods that do not have the corresponding toleration. This ensures that only specific pods can run on certain nodes, providing isolation between different teams workloads. We can dedicate nodes for specific teams or applications by applying taints to those nodes and adding tolerations to the pods that should run on those nodes.
+
+Date of Commit: 17/05/2025
