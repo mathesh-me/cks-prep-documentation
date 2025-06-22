@@ -1,6 +1,6 @@
 # Certified Kubernetes Administrator (CKA) Exam Preparation Documentation
 
-Welcome to my Certified Kubernetes Security Specialist (CKS) Exam Preparation Documentation. This documentation is a collection of my notes, commands, and tips for the Exam. I will update this documentation as I continue to prepare for the exam.
+Welcome to my Certified Kubernetes Security Specialist (CKS) Exam Preparation Documentation. This documentation is a collection of my notes, commands, and tips for the Exam. I will update this documentation as I continue to prepare for the exam. 
 
 <p align="center">
     <img src="https://github.com/user-attachments/assets/b405ef20-5876-4582-8ca6-335be334d677" alt="cks" />
