@@ -68,9 +68,22 @@ $ kubectl config view
 ```bash
 $ kubectl config use-context kubernetes-admin@kubernetes
 ```
+- Command to view the current context in the `config` file:
+```bash
+$ kubectl config current-context
+```
 - Command for config file in another location:
 ```bash
 $ kubectl get pods --kubeconfig /path/to/config
 ```
-
-Date of Commit: 30/04/2025
+- Steps to make config file in another location persistent with kubectl command:
+```bash
+$ vi ~/.bashrc
+$ export KUBECONFIG=/root/my-kube-config
+# OR
+$ export KUBECONFIG=~/my-kube-config
+# OR
+$ export KUBECONFIG=$HOME/my-kube-config
+$ source ~/.bashrc
+```
+Date of Commit: 16/12/2025
