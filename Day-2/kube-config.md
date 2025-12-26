@@ -78,7 +78,7 @@ $ kubectl get pods --kubeconfig /path/to/config
 ```
 - Steps to make config file in another location persistent with kubectl command:
 ```bash
-$ vi ~/.bashrc
+$ vi ~/.bashrc # ~/.bashrc, ~/.bash_profile, or ~/.zshrc depending on the shell
 $ export KUBECONFIG=/root/my-kube-config
 # OR
 $ export KUBECONFIG=~/my-kube-config
