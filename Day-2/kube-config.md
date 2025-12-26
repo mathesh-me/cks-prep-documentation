@@ -86,4 +86,4 @@ $ export KUBECONFIG=~/my-kube-config
 $ export KUBECONFIG=$HOME/my-kube-config
 $ source ~/.bashrc
 ```
-Date of Commit: 16/12/2025
+Date of Commit: 30/04/2025
