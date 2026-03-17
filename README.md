@@ -10,7 +10,9 @@ Welcome to my Certified Kubernetes Security Specialist (CKS) Exam Preparation Do
 
 - Kubernetes [Official Documentation](https://kubernetes.io/docs/home/)
 - Killer Shell [CKS Exam Simulator](https://killer.sh/cks)
+- Killer Coda [CKS Interactive Scenarios](https://killercoda.com/killer-shell-cks)
 - Mumshad Mannambeth's [Certified Kubernetes Security Specialist Course on KodeKloud](https://learn.kodekloud.com/user/courses/certified-kubernetes-security-specialist-cks)
+- [Free CKS Self-Study Course from RX-M](https://rx-m.com/cks-self-study-course/)
 - Cilium [Documentation](https://docs.cilium.io/en/stable/index.html)
 - Istio [Documentation](https://istio.io/latest/docs/)
 
